@@ -13,7 +13,7 @@ body {
   background-color: var(--azul-escuro);
   color: var(--branco-principal);
   font-family: var(--fonte-principal);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 
 }
@@ -54,12 +54,12 @@ body {
 }
 
 .container__aviso {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--cinza-secundario);
 }
 
 .container__titulo {
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
   
 }
@@ -85,13 +85,14 @@ body {
 
 .descricao__titulo {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 56px;
   color: var(--branco-principal);
   margin-bottom: 0.1em;
 }
 
 .descricao__texto {
     color: var(--cinza-secundario);
+  font-size: 22px;
 }
 
 .secundario__botao {
@@ -166,6 +167,16 @@ body {
 
 .lista-paises {
   margin-bottom: 4em; 
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1em;
+}
+
+.lista-paises li {
+  font-size: 24px; 
+  color: var(--branco-principal);
+  margin: 0.5em;
 }
 
 .grupo-trabalho {
@@ -183,12 +194,13 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: inline-block;
-  text-align: left;
+  display: ;
+  text-align: center;
+  justify-content: center;
 }
 
 .membros__lista li {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--branco-principal);
   margin-bottom: 0.5em;
 }
